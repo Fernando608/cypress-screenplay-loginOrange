@@ -23,57 +23,20 @@ Confirma que todo esta funcionando correctamente lanzando el siguiente comando.
 npx cypress open
 ```
 
+![Captura de pantalla de la aplicación](files/img.png)
+
+Seleccionas el navegador donde quiera correr tus pruebas.
+
+![Captura de pantalla de la aplicación](files/img1.png)
+
 ## La estrucutura del proyecto sería:
 
-PROYECTO-CYPRESS-SCREENPLAY/
-├── cypress/
-│   ├── e2e/
-│   │   ├── features/
-│   │       ├── google-search.cy.js
-│   │       └── login.cy.js
-│   │   
-│   │
-│   ├── fixtures/
-│   │   └── example.json
-│   │
-│   ├── support/
-│   │   ├── screenplay/
-│   │   │   ├── abilities/
-│   │   │   │   └── BrowseTheWeb.js
-│   │   │   │
-│   │   │   ├── actors/
-│   │   │   │   └── Actor.js
-│   │   │   │
-│   │   │   ├── interactions/
-│   │   │   │   ├── Click.js
-│   │   │   │   ├── Type.js
-│   │   │   │   ├── Press.js
-│   │   │   │   └── Wait.js
-│   │   │   │
-│   │   │   └── tasks/
-│   │   │       ├── Navigate.js
-│   │   │       ├── Search.js
-│   │   │       ├── VerifyResults.js
-│   │   │       ├── Login.js
-│   │   │       └── VerifyDashboard.js
-│   │   │
-│   │   ├── ui/
-│   │   │   ├── GoogleHomePage.js
-│   │   │   ├── GoogleResultsPage.js
-│   │   │   ├── LoginPage.js
-│   │   │   └── DashboardPage.js
-│   │   │
-│   │   ├── commands.js
-│   │   └── e2e.js
-│   │
-│   └── cypress.config.js
-│
-├── node_modules/
-├── package-lock.json
-└── package.json
+![Captura de pantalla de la aplicación](files/estructura-screeplay-cypress.png)
+
+** Puesde ir a ../files y ver el archivo .txt si quieres otra vista de la estructura.
 
 Espero poder ayudarte a estrucutrar de otra forma tu proyecto cypress con screemplay. 
 
 Muchas gracias.
 
-***Luis Farco Oviedo***
+***QA Automation - Luis Farco Oviedo***
